@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .filme {
+            width: 200px;
+            text-align: center;
+        }
+        .filme img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .filme a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meus Filmes Favoritos</h1>
+    <div class="galeria">
+        <div class="filme">
+            <img src="imagens/interstellar.jpg" alt="Interstellar">
+            <a href="https://pt.wikipedia.org/wiki/Interstellar_(filme)">Interstellar</a>
+        </div>
+        <div class="filme">
+            <img src="imagens/matrix.jpg" alt="Matrix">
+            <a href="https://pt.wikipedia.org/wiki/The_Matrix">Matrix</a>
+        </div>
+        <div class="filme">
+            <img src="imagens/senhor-dos-aneis.jpg" alt="O Senhor dos Anéis">
+            <a href="https://pt.wikipedia.org/wiki/The_Lord_of_the_Rings_(s%C3%A9rie_de_filmes)">O Senhor dos Anéis</a>
+        </div>
+        <div class="filme">
+            <img src="imagens/batman.jpg" alt="Batman: O Cavaleiro das Trevas">
+            <a href="https://pt.wikipedia.org/wiki/The_Dark_Knight">Batman: O Cavaleiro das Trevas</a>
+        </div>
+        <div class="filme">
+            <img src="imagens/avatar.jpg" alt="Avatar">
+            <a href="https://pt.wikipedia.org/wiki/Avatar_(filme)">Avatar</a>
+        </div>
+    </div>
+</body>
+</html>
